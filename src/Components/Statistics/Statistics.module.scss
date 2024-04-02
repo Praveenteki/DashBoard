@@ -1,0 +1,236 @@
+.mainContainer {
+  display: flex;
+  column-gap: 10px;
+  margin-top: 30px;
+  .statContainer1 {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 30px 10px;
+    flex: 1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+    .backgroundContainer {
+      padding: 30px;
+      border-radius: 50%;
+      background: linear-gradient(
+        200deg,
+        rgba(0, 172, 80, 0.4),
+        rgba(0, 172, 80, 0.3),
+        rgba(0, 172, 80, 0.2),
+        rgba(0, 172, 80, 0.1),
+        rgba(0, 172, 80, 0)
+      );
+      .iconContainer {
+        width: 40px;
+        height: 40px;
+
+        .icon {
+          width: 100%;
+          height: 100%;
+          path {
+            fill: #00ac4f;
+          }
+        }
+      }
+    }
+    .dataContainer {
+      margin-left: 10px;
+      p {
+        &:nth-child(1) {
+          color: #b8b8b8;
+          font-size: 12px;
+        }
+
+        &:nth-child(2) {
+          font-weight: bold;
+          color: #000000;
+          font-size: 25px;
+        }
+
+        &:nth-child(3) {
+          font-size: #0e1418;
+          font-weight: bold;
+          font-size: 14px;
+          span {
+            color: #04ad53;
+          }
+        }
+      }
+    }
+  }
+
+  .statContainer2 {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 30px 10px;
+    flex: 1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+    .backgroundContainer {
+      padding: 30px;
+      border-radius: 50%;
+      background: linear-gradient(
+        200deg,
+        rgba(160, 0, 225, 0.4),
+        rgba(160, 0, 225, 0.3),
+        rgba(160, 0, 225, 0.2),
+        rgba(160, 0, 225, 0.1),
+        rgba(160, 0, 225, 0)
+      );
+      .iconContainer {
+        width: 40px;
+        height: 40px;
+
+        .icon {
+          width: 100%;
+          height: 100%;
+          path {
+            fill: #a000ff;
+          }
+        }
+      }
+    }
+    .dataContainer {
+      margin-left: 10px;
+      p {
+        &:nth-child(1) {
+          color: #b8b8b8;
+          font-size: 12px;
+        }
+
+        &:nth-child(2) {
+          font-weight: bold;
+          color: #000000;
+          font-size: 25px;
+        }
+
+        &:nth-child(3) {
+          font-size: #0e1418;
+          font-weight: bold;
+          font-size: 14px;
+          span {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+
+  .statContainer3 {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 30px 10px;
+    flex: 1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+    .backgroundContainer {
+      padding: 30px;
+      border-radius: 50%;
+      background: linear-gradient(
+        200deg,
+        rgba(16, 97, 195, 0.4),
+        rgba(16, 97, 195, 0.3),
+        rgba(16, 97, 195, 0.2),
+        rgba(16, 97, 195, 0.1),
+        rgba(16, 97, 195, 0)
+      );
+      .iconContainer {
+        width: 40px;
+        height: 40px;
+
+        .icon {
+          width: 100%;
+          height: 100%;
+          path {
+            fill: #1060c3;
+          }
+        }
+      }
+    }
+    .dataContainer {
+      margin-left: 10px;
+      p {
+        &:nth-child(1) {
+          color: #b8b8b8;
+          font-size: 12px;
+        }
+
+        &:nth-child(2) {
+          font-weight: bold;
+          color: #000000;
+          font-size: 25px;
+        }
+
+        &:nth-child(3) {
+          font-size: #0e1418;
+          font-weight: bold;
+          font-size: 14px;
+          span {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+
+  .statContainer4 {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 30px 10px;
+    flex: 1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+    .backgroundContainer {
+      padding: 30px;
+      border-radius: 50%;
+      background: linear-gradient(
+        200deg,
+        rgba(214, 0, 3, 0.4),
+        rgba(214, 0, 3, 0.3),
+        rgba(214, 0, 3, 0.2),
+        rgba(214, 0, 3, 0.1),
+        rgba(214, 0, 3, 0)
+      );
+      .iconContainer {
+        width: 40px;
+        height: 40px;
+
+        .icon {
+          width: 100%;
+          height: 100%;
+          path {
+            fill: #d60003;
+          }
+        }
+      }
+    }
+    .dataContainer {
+      margin-left: 10px;
+      p {
+        &:nth-child(1) {
+          color: #b8b8b8;
+          font-size: 12px;
+        }
+
+        &:nth-child(2) {
+          font-weight: bold;
+          color: #000000;
+          font-size: 25px;
+        }
+
+        &:nth-child(3) {
+          font-size: #0e1418;
+          font-weight: bold;
+          font-size: 14px;
+          span {
+            color: #04ad53;
+          }
+        }
+      }
+    }
+  }
+}

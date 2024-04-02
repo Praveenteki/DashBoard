@@ -1,0 +1,24 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  .welcomeContainer {
+    h1 {
+      font-weight: 500;
+      font-size: 25px;
+    }
+  }
+
+  .searchContainer {
+    .input {
+      width: 250px;
+      background-color: #ffffff;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+  }
+}

@@ -1,0 +1,118 @@
+.mainContainer {
+  background-color: #040440;
+  width: 250px;
+  height: 100vh;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  .topContainer {
+    .headingContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      .iconContainer {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        .icon {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      h2 {
+        color: #ffffff;
+        font-weight: 400;
+      }
+    }
+    .menusContainer {
+      margin-top: 40px;
+      .menu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+        padding: 10px 15px;
+        border-radius: 10px;
+        opacity: 0.5;
+        .iconContainer {
+          width: 18px;
+          height: 18px;
+          margin-right: 20px;
+
+          .icon {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        p {
+          color: #ffffff;
+          font-size: 14px;
+        }
+      }
+
+      .menuActive {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+        background-color: rgba(255, 255, 255, 0.15);
+        padding: 10px 15px;
+        border-radius: 10px;
+        .iconContainer {
+          width: 18px;
+          height: 18px;
+          margin-right: 20px;
+
+          .icon {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        p {
+          color: #ffffff;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .bottomContainer {
+    .profileContainer {
+      display: flex;
+      align-items: center;
+      background-color: #ffffff30;
+      border-radius: 10px;
+      padding: 10px;
+      .imageContainer {
+        width: 40px;
+        height: 40px;
+        overflow: hidden;
+        .image {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+        }
+      }
+
+      .infoContainer {
+        margin-left: 20px;
+        p {
+          &:nth-child(1) {
+            color: #ffffff;
+            font-size: 14px;
+          }
+
+          &:nth-child(2) {
+            color: #ffffff80;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}
